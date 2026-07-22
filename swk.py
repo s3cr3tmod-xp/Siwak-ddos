@@ -47,7 +47,7 @@ else:
 
 time.sleep(5)
 attemps = 0
-banner = r"""
+banner = """
                               ╭╮
                               ││
 ╭───────╮╭╮╭╮      ╭╮╭──────╭╮││ ╭─╮
