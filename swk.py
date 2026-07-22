@@ -76,7 +76,7 @@ while attemps < 100:
     username = input("\033[38;5;111m┗>Username: \033[30m")
     password = input("\033[38;5;111m┗> Password: \033[30m")
 
-    if username == '00000' and password == '00000':
+    if username == 'terserah' and password == 'bebas':
         print("\033[32m⟩⟩ Aksi solidaritas untuk PALESTINE \033[0m")
         break
     else:
