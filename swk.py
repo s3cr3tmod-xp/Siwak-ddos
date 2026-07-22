@@ -18,7 +18,7 @@ headers = {
 }
 os.system = sys.platform
 
-if osystem == "linux":
+if System == "linux":
    os.system("clear")
 else:
    osystem("cls")
