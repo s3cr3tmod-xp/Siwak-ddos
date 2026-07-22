@@ -18,27 +18,23 @@ headers = {
 }
 os.system = sys.platform
 
-if os.system == "linux":
+osystem = sys.platform
+if osystem == "linux":
   os.system("clear")
 else:
   os.system("cls")
 print("""
-\033[32m 
-
+\033[32m
 [*] gh repo clone s3cr3tmod-xp/Siwak-DDos
-
 """)
 time.sleep(5)
-
-if os.system == "linux":
+if osystem == "linux":
   os.system("clear")
 else:
   os.system("cls")
 print("""
-\033[37m 
-
+\033[37m
 [✓] BLACK ARMY COMMUNITY
-
 """)
 time.sleep(5)
 print("Loading komplit.....!")
@@ -47,7 +43,7 @@ if osystem == "linux":
   os.system("clear")
 else:
   os.system("cls")
-  
+""")  
 time.sleep(5)
 attemps = 0
 banner = r"""
