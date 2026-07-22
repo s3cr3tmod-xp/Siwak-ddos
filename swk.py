@@ -54,10 +54,10 @@ banner = """
 """.replace('▒▒', '▒▒')
 print(Colorate.Horizontal(Colors.green_to_red, banner))
 banner = """
-╔══════════════════════════════════════════════════════════════════╗
-║  Design By: KunFayakun                                           ║
-║  0wner: Z'black [ Black Army Community ]                         ║
-╚══════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════════════════════════╗
+║   Design By: KunFayakun                                           ║
+║   0wner: Z'black [ Black Army Community ]                         ║
+╚═══════════════════════════════════════════════════════════════════╝
 """                       
 print(Colorate.Horizontal(Colors.blue_to_green, banner))
 
