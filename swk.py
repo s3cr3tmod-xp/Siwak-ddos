@@ -19,9 +19,9 @@ headers = {
 os.system = sys.platform
 
 if os.system == "linux":
-  os.system("clear")
+   os.system("clear")
 else:
-  os.system("cls")
+   os.system("cls")
 print("""
 \033[32m 
 
