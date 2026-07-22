@@ -16,9 +16,9 @@ import os
 headers = {
   "User-Agent": "s3cr3tmod-xp"
 }
-osystem = sys.platform
+os.system = sys.platform
 
-if osystem == "linux":
+if os.system == "linux":
   os.system("clear")
 else:
   os.system("cls")
