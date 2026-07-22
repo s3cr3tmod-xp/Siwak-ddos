@@ -1,23 +1,7 @@
-import colorama
-import threading 
-import aiohttp
-import asyncio
-import subprocess
-import multiprocess
-import sys
-import time
-from time import sleep
-from pystyle import *
-import traceback
-import os
-
 #//Gui Start//#
-
 headers = {
   "User-Agent": "s3cr3tmod-xp"
 }
-os.system = sys.platform
-
 osystem = sys.platform
 if osystem == "linux":
   os.system("clear")
@@ -43,8 +27,6 @@ if osystem == "linux":
   os.system("clear")
 else:
   os.system("cls")
-""")  
-
 time.sleep(5)
 attemps = 0
 banner = """
