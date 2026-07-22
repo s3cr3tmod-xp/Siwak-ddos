@@ -39,7 +39,7 @@ time.sleep(1)
 if osystem == "linux":
   os.system("clear")
 else:
-  os.system("cls")
+  os.system("clear")
 time.sleep(5)
 attemps = 0
 banner = """
